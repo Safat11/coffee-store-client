@@ -56,7 +56,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
                     <div className="btn-group btn-group-vertical space-y-4">
                         <button className="btn">View</button> <br />
                         <Link to={`updateCoffee/${_id}`}>
-                            <button className="btn">Edit</button>
+                            <br /><button className="btn">Edit</button>
                         </Link>
                         <br />
                         <button
