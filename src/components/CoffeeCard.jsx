@@ -12,6 +12,8 @@ const CoffeeCard = ({ coffee }) => {
                     <p>{quantity}</p>
                     <p>{supplier}</p>
                     <p>{taste}</p>
+                    <p>{category}</p>
+                    <p>{details}</p>
                 </div>
                 <div className="card-actions justify-end">
                     <div className="btn-group btn-group-vertical space-y-4">
